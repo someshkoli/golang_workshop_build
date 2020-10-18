@@ -1,0 +1,13 @@
+GET http://localhost:8000/ping
+
+###
+
+POST http://localhost:8000/upload
+Content-Type: image/png
+
+< ./image.png
+
+###
+GET http://localhost:8000/getImage?id=25176dc4-a454-4ca1-8294-64d5f2d81e27
+
+
